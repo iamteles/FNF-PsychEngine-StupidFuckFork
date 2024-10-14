@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="noteSplashes-clean.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="splash0000" x="1" y="1" width="260" height="298"/>
+	<SubTexture name="splash0001" x="271" y="1" width="260" height="298"/>
+	<SubTexture name="splash0002" x="1" y="309" width="260" height="298"/>
+	<SubTexture name="splash0003" x="1" y="617" width="260" height="298"/>
+	<SubTexture name="splash0004" x="271" y="309" width="260" height="298"/>
+</TextureAtlas>
