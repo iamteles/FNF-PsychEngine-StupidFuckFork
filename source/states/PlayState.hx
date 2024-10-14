@@ -1119,8 +1119,6 @@ class PlayState extends MusicBeatState
 		callOnScripts('onUpdateScore', [miss]);
 	}
 
-	public final separator:String = " ▲ ";
-
 	public dynamic function updateScoreText()
 	{
 		var percent:Float = CoolUtil.floorDecimal(ratingPercent * 100, 2);
@@ -1128,8 +1126,8 @@ class PlayState extends MusicBeatState
 
 		var tempScore:String = "";
 		tempScore += 			 'Score: '		+ songScore;
-		tempScore += separator + 'Accuracy: '	+ str;
-		tempScore += separator + 'Breaks: '		+ songMisses;
+		tempScore += CoolUtil.returnSeparator() + 'Accuracy: '	+ str;
+		tempScore += CoolUtil.returnSeparator() + 'Breaks: '		+ songMisses;
 		scoreTxt.text = tempScore;
 	}
 

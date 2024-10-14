@@ -91,6 +91,13 @@ class VisualsSettingsSubState extends BaseOptionsMenu
 			'hideHud',
 			BOOL);
 		addOption(option);
+
+		var option:Option = new Option('Separator:',
+		"Also known as a divider.",
+		'separator',
+		STRING,
+		['Bar', 'Dot', 'Slash', 'Triangle', 'Tilde', 'Hat', 'Double Bar', 'Double Slash']);
+		addOption(option);
 		
 		var option:Option = new Option('Time Bar:',
 			"What should the Time Bar display?",

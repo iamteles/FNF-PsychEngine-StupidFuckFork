@@ -159,4 +159,28 @@ class CoolUtil
 				text.borderStyle = NONE;
 		}
 	}
+
+	public static function returnSeparator():String
+	{
+		switch(ClientPrefs.data.separator) {
+			case "Triangle":
+				return " ▲ ";
+			case "Slash":
+				return " / ";
+			case "Double Slash":
+				return " // ";
+			case "Double Bar":
+				return " || ";
+			case "Tilde":
+				return " ~ ";
+			case "Hat":
+				return " ^ ";
+			case "Dot":
+				return " • ";
+			case "Dash":
+				return " • ";
+			default:
+				return " | ";
+		}
+	}
 }
